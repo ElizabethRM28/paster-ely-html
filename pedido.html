@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/pedido.css">
+    <title>Paster-Ely</title>
+</head>
+
+<body>
+    <div class="main">
+        <header class="cabeza">
+            <nav class="barra-nav">
+                <ul>
+                    <li><a href="index.html" class="btn">Inicio</a></li>
+                    <li><a href="menu.html" class="btn">Menu</a></li>
+                    <li><a href="pedido.html" class="btn">Haz tu pedido</a></li>
+                    <li><a href="acercade.html" class="btn">Acerca de Paster-Ely</a></li>
+                </ul>
+                <section class="btn-pastelero">
+                    <a  class="btn-apastelero" href="pastelero.html">Pastelero</a> 
+                </section>
+            </nav>
+        </header>
+        <section class="titulo">
+            <img src="img/logopasterely -chico.png" alt="">
+        </section>
+        <form action="" class="formulario">
+            <label for="nombre" class="dato">Nombre</label>
+            <br>
+            <input type="text" placeholder="Nombre" required id="nombre" name="nombre" min="3">
+            <br>
+            <br>
+            <label for="apellido" class="dato">Apellido</label>
+            <br>
+            <input type="text" placeholder="Apellido" required id="apellido" name="apellido" min="3">
+            <br>
+            <br>
+            <label for="email" class="dato">Email</label>
+            <br>
+            <input type="email" name="email" id="email" required placeholder="email@mail.com">
+            <br>
+            <br>
+            <label for="Dirección" class="dato">Dirección</label>
+            <br>
+            <input type="direccion" name="direccion" id="direccion" required placeholder="No., Calle, Colonia, Municipio">
+            <br>
+            <br>
+            <label for="tel" class="tel">Telefono</label>
+            <br>
+            <input type="tel" name="tel" id="tel" required placeholder="Telefono">
+            <br>
+            <br>
+            <label for="mensaje" class="dato">Descripción general del pastel</label>
+            <br>
+            <textarea name="mensajeTxt" id="mensaje" placeholder="Descripción del pastel"></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+            
+        </form>
+
+        <footer>
+            <hr>
+            <p>Todos los derechos reservados</p>
+            <p>Paster-Ely |  México | 2022 </p>
+        </footer>
+    </div>
+</body>
+</html>

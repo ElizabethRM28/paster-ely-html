@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f7f4ea;
+    font-family: 'bantayog', cursive;
+    font-size: 20px;
+}
+.titulo img {
+    display: block;
+    margin: 0 auto;
+}
+nav {
+    font-size: 27px;
+    background-color: #75c9c8;
+    overflow: hidden;
+    scroll-behavior: auto;
+}
+nav ul {
+    list-style: none;
+    position: relative;
+    margin: 10px auto;
+    left: 310px;  
+}
+nav ul li {
+    float: left;
+    margin: 10px;
+}
+ul > a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+.btn {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+.btn:hover {
+    text-decoration: underline;
+    background-color: #ded9e2;
+}
+.btn-apastelero {
+    display: inline-block;
+    text-decoration: none;
+    width: 200px;
+    text-align: center;
+    background-color: #80A1D4;
+}
+
+.panes {
+    font-size: 16px;
+    color: #fff;
+    width: 33%;
+    height: 250px;
+    padding: 30px;
+    float: left;
+    background-color: #80A1D4;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.precios {
+    font-size: 16px;
+    color: #fff;
+    width: 55%;
+    height: 500px;
+    padding: 30px;
+    float: left;
+    background-color: #C0B9DD;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.pdecoracion {
+    font-size: 16px;
+    color: #fff;
+    width: 45%;
+    height: 500px;
+    padding: 30px;
+    float: left;
+    background-color: #C0B9DD;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.rellenos {
+    font-size: 16px;
+    color: #fff;
+    width: 34%;
+    height: 250px;
+    padding: 30px;
+    float: left;
+    background-color: #80A1D4;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.decoracion {
+    font-size: 16px;
+    color: #fff;
+    width: 33%;
+    height: 250px;
+    padding: 30px;
+    float: left;
+    background-color: #80A1D4;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.pedido {
+    font-size: 16px;
+    color: #80A1D4;
+    text-align: center;
+    padding: 20px;
+}
+.btn-a {
+    display: inline-block;
+    text-decoration: none;
+    width: 300px;
+    text-align: center;
+    background-color: #80A1D4;
+}
+
+
+footer {
+    background-color: #ded9e2;
+    font-size: small;
+}
+footer p{
+    color: #fff;
+    text-align: center;
+    /* margin: 10px; */
+    padding: 5px;
+}
