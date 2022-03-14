@@ -40,6 +40,10 @@ ul > a {
     text-decoration: underline;
     background-color: #ded9e2;
 }
+.btn-pastelero {
+    float: right;
+
+}
 .btn-apastelero {
     display: inline-block;
     text-decoration: none;
